@@ -10,6 +10,7 @@ import { SearchprocessoComponent } from './component/searchprocesso/searchproces
 import { ViewerprocessoComponent } from './component/viewerprocesso/viewerprocesso.component';
 import { ShowprocessoComponent } from './component/showprocesso/showprocesso.component';
 import { MenuComponent } from './component/menu/menu.component';
+import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MenuComponent } from './component/menu/menu.component';
     SearchprocessoComponent,
     ViewerprocessoComponent,
     ShowprocessoComponent,
-    MenuComponent
+    MenuComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
